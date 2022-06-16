@@ -1,5 +1,4 @@
-Hello guys ....
-This is the java files which contains the DB connection logic
+Hello this line is updated in dev branch
+Hello Guys
 
-hey.....
-
+db logic added..
