@@ -1,6 +1,11 @@
-Hello this is the new line in master branch...
-Hello Guys
+echo "please enter the file name...."
+read filename
 
-db logic added...
-i am updated....
-
+if [ -r $filename ]
+then
+echo "The $filename have read permission"
+cat $filename
+else
+echo  "The $filename have no read permission"
+touch $filename
+fi
